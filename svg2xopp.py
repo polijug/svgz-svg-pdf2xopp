@@ -1,10 +1,14 @@
 import glob
 import os
-from pathlib import Path
+import sys
 import subprocess
 from pdf2xopp import pdf2xopp
 
-root_dir = input("Enter directory, where will be all .svg files replaced with .xopp: ")
+root_dir = ""
+if(len(sys.argv) == 2):
+	root_dir = sys.argv[1]
+else:
+	root_dir = input("Enter directory, where will be all .svgz files replaced with .xopp: ")
 
 os.chdir(root_dir)
 
