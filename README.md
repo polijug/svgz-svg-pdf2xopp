@@ -23,7 +23,7 @@ This script converts all .svg files in given folder (and subfolders) to .xopp.
 ## pdf2xopp:
 This script converts **one** .pdf file to .xopp. Here is mainly as library for other scripts.
 ### Dependence
-- pdf2image module (can by obtained from pip - `pip install pdf2image`)
+- pdf2image module (can be obtained from pip - `pip install pdf2image`)
 
 ### Usage
 `pythom3 pdf2xopp.py output-file.xopp input-file.pdf`
