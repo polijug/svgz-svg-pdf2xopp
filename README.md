@@ -1,4 +1,8 @@
 # SVGZ / SVG / PDF to XOPP
+
+> [!CAUTION]
+> Please make a backup of the original files before proceeding with the conversion.
+
 ## svgz2xopp:
 This script converts all .svgz files in given folder (and subfolders) to .xopp. 
 ### Dependences
@@ -9,6 +13,7 @@ This script converts all .svgz files in given folder (and subfolders) to .xopp.
 
 ### Usage
 `python3 svgz2xopp.py /path/to/dir`
+<hr>
 
 ## svg2xopp:
 This script converts all .svg files in given folder (and subfolders) to .xopp. 
@@ -19,6 +24,8 @@ This script converts all .svg files in given folder (and subfolders) to .xopp.
 
 ### Usage
 `python3 svg2xopp.py /path/to/dir`
+
+<hr>
 
 ## pdf2xopp:
 This script converts **one** .pdf file to .xopp. Here is mainly as library for other scripts.
