@@ -8,7 +8,7 @@ This script converts all .svgz files in given folder (and subfolders) to .xopp.
 - pdf2image module (can be obtained from pip - `pip install pdf2image`)
 
 ### Usage
-`pythom3 svgz2xopp.py /path/to/dir`
+`python3 svgz2xopp.py /path/to/dir`
 
 ## svg2xopp:
 This script converts all .svg files in given folder (and subfolders) to .xopp. 
@@ -18,7 +18,7 @@ This script converts all .svg files in given folder (and subfolders) to .xopp.
 - pdf2image module (can be obtained from pip - `pip install pdf2image`)
 
 ### Usage
-`pythom3 svg2xopp.py /path/to/dir`
+`python3 svg2xopp.py /path/to/dir`
 
 ## pdf2xopp:
 This script converts **one** .pdf file to .xopp. Here is mainly as library for other scripts.
@@ -26,4 +26,4 @@ This script converts **one** .pdf file to .xopp. Here is mainly as library for o
 - pdf2image module (can be obtained from pip - `pip install pdf2image`)
 
 ### Usage
-`pythom3 pdf2xopp.py output-file.xopp input-file.pdf`
+`python3 pdf2xopp.py output-file.xopp input-file.pdf`
